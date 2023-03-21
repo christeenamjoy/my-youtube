@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyBlU6TnoBogrb99bt4TcH8zx_RZ694JcUQ";
+const API_KEY = process.env.API_KEY;
 
 export const FETCH_ALL_URL =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&maxResults=50&key=" +
